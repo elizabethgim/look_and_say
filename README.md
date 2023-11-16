@@ -20,3 +20,7 @@
 # 환경 설정
 > 사용 언어: Python 3.11
 
+# 실행 방법
+```bash
+python -m unittest test/test.py
+```
