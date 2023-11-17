@@ -22,5 +22,5 @@
 
 ## 실행 방법
 ```bash
-python -m unittest test/test.py
+python -m unittest ptyhon/test/test.py
 ```
