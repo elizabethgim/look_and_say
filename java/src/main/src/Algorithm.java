@@ -14,7 +14,7 @@ public class Algorithm {
             if(prev.equals(number)){
                 count++;
             } else{
-                answer.append(Integer.toString(count)).append(prev);
+                answer.append(count).append(prev);
                 prev = number;
                 count = 1;
             }
@@ -22,9 +22,9 @@ public class Algorithm {
 
         int last = numbers.length-1;
         if(prev.equals(numbers[last])){
-            answer.append(Integer.toString(count)).append(numbers[last]);
+            answer.append(count).append(numbers[last]);
         } else{
-            answer.append(Integer.toString(count)).append(numbers[last-1])
+            answer.append(count).append(numbers[last-1])
                     .append("1").append(numbers[last]);
         }
 
